@@ -28,3 +28,16 @@ const nombre_constante = <valor>;
 - `*` : multiplicar dos valores
 - `/` : dividir dos valores
 - `%` : mod, obtiene el resto de una división.
+
+# Ejercicio:
+
+Escriba los algortimos necesarios para:
+
+- calcular el IMC (indice de masa corporal) de una persona.
+- el algoritmo que permita calcular el impuesto al valor agregado (IVA) de un monto de compra.
+- determinar la hipotenusa dada los catetos de un triangulo.
+
+Equipo:
+
+- Sutanito: http://github.com/sutanido/ejerciciogrupal1.git
+- Menganitio: http://github.com/menganito/ejerciciogrupal1.git
