@@ -20,7 +20,7 @@ var nombre_variable = <valor_inicial>;
 const nombre_constante = <valor>;
 ```
 
-# Operadores JavaScript
+# Operadores Aritmeticos JavaScript
 
 - `=` : asignación
 - `+` : sumar dos valores

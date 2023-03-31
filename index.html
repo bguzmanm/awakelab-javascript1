@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  </head>
+		<title>Documento</title>
+	</head>
+	<body>
+    <div class="container pt-3">
+      <div class="row">
+        <input id="nombre" type="text" class="form-control">
+      </div>
+      <div class="row">
+        <label id="bienvenida"></label>
+      </div>
+      <div class="row">
+        <button class="btn btn-primary mt-2" onclick="saludar();">saludar</button> 
+      </div>
+      <!--<button class="btn btn-secondary" onclick="despedir();" >aprietame...</button> -->
+
+    </div>
+    <script>
+      function saludar(){
+
+        const nombre = document.getElementById('nombre').value;
+        const labelBienvenida = document.getElementById('bienvenida');
+        labelBienvenida.innerText = 'Bienvenido ' + nombre;
+
+      }
+      
+      
+      
+      
+      function despedir(){
+        console.log('chaolin');
+      }
+
+      function kp(){
+        console.log('key press');
+      }
+      function kd(){
+        console.log('key down');
+      }
+
+      function ku(){
+        console.log('key up');
+      }
+    </script>
+	</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sumador</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="container mt-3">
+			<div class="row">
+				<div class="col-3">
+					<input class="form-control" type="text" id="num1" />
+				</div>
+				<div class="col-1">
+					<label class="form-label">+</label>
+				</div>
+				<div class="col-3">
+					<input class="form-control" type="text" id="num2" />
+				</div>
+				<div class="col-2">
+					<button class="btn btn-primary" id="calcular" onclick="obtenerSuma()">
+						=
+					</button>
+				</div>
+				<div class="col-3">
+					<label class="form-label" id="resultado"></label>
+				</div>
+			</div>
+		</div>
+		<script>
+			function obtenerSuma() {
+				var n1 = parseInt(document.getElementById('num1').value);
+				var n2 = parseInt(document.getElementById('num2').value);
+				var result = document.getElementById('resultado');
+				result.innerText = n1 + n2;
+			}
+		</script>
+	</body>
+</html>
